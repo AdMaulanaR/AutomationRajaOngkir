@@ -22,7 +22,7 @@ def test():
 
 
     # ASSERT
-    assert_that(status_code).is_equal_to(200)
+    assert_that(status_code).is_equal_to(2001)
     assert_that(latency).is_less_than(max_latency)
     assert_that(description).is_equal_to("OK")
     assert_that(results).is_type_of(list)
